@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid burlywood;
+  border-bottom: 1px solid mediumorchid;
 }
 .profiletext .profileimg {
   position: relative;
@@ -90,7 +90,7 @@ body {
 .info ul li .icon {
   width: 30px;
   font-size: 20px;
-  color: darkmagenta;
+  color: mediumorchid;
 }
 .info ul li span {
   color: white;
@@ -108,7 +108,7 @@ a:visited {
   margin-bottom: 15px;
 }
 .info.education h5 {
-  color: darkmagenta;
+  color: mediumorchid;
   font-weight: 500;
 }
 .info.education h4:nth-child(2) {
@@ -132,7 +132,7 @@ a:visited {
   top: 0;
   left: 0;
   height: 100%;
-  background: darkmagenta;
+  background: mediumorchid;
 }
 .about {
   margin-bottom: 50px;
@@ -141,7 +141,7 @@ a:visited {
   margin-bottom: 0;
 }
 .title2 {
-  color: darkmagenta;
+  color: mediumorchid;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -191,20 +191,17 @@ p {
   top: 0;
   left: 0;
   height: 100%;
-  background: darkmagenta;
+  background: mediumorchid;
 }
-.interest ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
+
 .interest ul li {
   list-style-type: none;
-  color: black;
+  color: white;
   font-weight: 500;
   margin: 12px 0;
 }
 .interest ul li .icon {
-  color: darkmagenta;
+  color: mediumorchid;
   font-size: 18px;
   width: 35px;
 }
