@@ -167,31 +167,18 @@ p {
   color: gray;
   font-size: 16px;
 }
-.skills .box {
+.skills {
   position: relative;
-  width: 100%;
   display: grid;
-  grid-template-columns: 150px 1fr;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
 }
 .skills .box h4 {
   text-transform: uppercase;
-  color: gray;
+  padding: 10px;
+  color: black;
   font-weight: 500;
-}
-.skills .box .percent {
-  position: relative;
-  width: 100%;
-  height: 10px;
-  background: beige;
-}
-.skills .box .percent div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: mediumorchid;
+  border: mediumorchid 1px solid;
+  border-radius: 50px;
 }
 
 .interest ul li {
